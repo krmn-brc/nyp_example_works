@@ -1,0 +1,15 @@
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/bin/Debug/net7.0/RockPaperScissorsGame
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/bin/Debug/net7.0/RockPaperScissorsGame.deps.json
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/bin/Debug/net7.0/RockPaperScissorsGame.runtimeconfig.json
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/bin/Debug/net7.0/RockPaperScissorsGame.dll
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/bin/Debug/net7.0/RockPaperScissorsGame.pdb
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.csproj.AssemblyReference.cache
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.AssemblyInfoInputs.cache
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.AssemblyInfo.cs
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.csproj.CoreCompileInputs.cache
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.dll
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/refint/RockPaperScissorsGame.dll
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.pdb
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/RockPaperScissorsGame.genruntimeconfig.cache
+/workspaces/nyp_example_works/AbstractsClasses/homework_csharp/RockPaperScissorsGame/obj/Debug/net7.0/ref/RockPaperScissorsGame.dll

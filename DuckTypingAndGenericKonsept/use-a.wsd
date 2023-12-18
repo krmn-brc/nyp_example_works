@@ -1,0 +1,17 @@
+@startuml use-a
+title Dependency/Bağımlılık
+class Car
+{
+    -engine:Engine
+    --
+    +Car()
+    +start():void
+    +stop():void
+}
+class Engine
+{
+    +start():void
+    +stop():void
+}
+Car "uses" --> Engine
+@enduml

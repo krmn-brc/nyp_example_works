@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractsClasses", "AbstractsClasses", "{CFD841CC-EAEB-4C03-801A-83B75074F5C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homework_csharp", "homework_csharp", "{006701A3-0497-45F9-BC37-292A896D73B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorsGame", "AbstractsClasses\homework_csharp\RockPaperScissorsGame\RockPaperScissorsGame.csproj", "{044996DC-97CB-466D-9502-D104B5E328F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{044996DC-97CB-466D-9502-D104B5E328F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044996DC-97CB-466D-9502-D104B5E328F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044996DC-97CB-466D-9502-D104B5E328F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044996DC-97CB-466D-9502-D104B5E328F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{006701A3-0497-45F9-BC37-292A896D73B5} = {CFD841CC-EAEB-4C03-801A-83B75074F5C0}
+		{044996DC-97CB-466D-9502-D104B5E328F6} = {006701A3-0497-45F9-BC37-292A896D73B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1443D90C-D150-4E69-BDB2-0277CFED83F7}
+	EndGlobalSection
+EndGlobal

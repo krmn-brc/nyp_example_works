@@ -1,0 +1,40 @@
+@startuml homework
+title Homework Project
+class Person
+{
+    #name:string
+    #classRoom:string
+    #age:int
+    --
+     +Person()
+     +Person(name, classRoom, age)
+    --
+    +setName(string value):void
+    +setClassRoom(string value):void
+    +setAge(int value):void
+    --
+    +getName():string
+    +getClassRoom():string
+    +getAge():int
+}
+class Student
+{
+    -studentNumber:string
+    --
+    +setStudentNumber(string value):void
+    --
+    +getStudentNumber():string
+
+}
+class Teacher
+{
+    -branches:list<string>
+    --
+    +setBranches(string value):void
+    --
+    +getBranches():list<string>
+}
+Student -u-|> Person : <<extends>>
+Teacher -u-|> Person : <<extends>>
+hide empty members
+@enduml

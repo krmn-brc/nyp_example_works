@@ -1,0 +1,21 @@
+@startuml has-a
+title Aggregation/Birleşim
+class Student
+{
+    -name:string
+    -studentNumber:string
+    --
+    +Student(name:string, studentNumber:string)
+}
+class University
+{
+    -name:string
+    -students:List<Student>
+    --
+    +University(name:string):void
+    +add_student(student:Student):void
+    +getStudents():List<Student>
+}
+Student -down-o University : 1..* 
+hide empty members
+@enduml

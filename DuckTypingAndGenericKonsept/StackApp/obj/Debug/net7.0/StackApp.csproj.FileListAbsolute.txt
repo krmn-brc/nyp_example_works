@@ -1,0 +1,15 @@
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/bin/Debug/net7.0/StackApp
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/bin/Debug/net7.0/StackApp.deps.json
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/bin/Debug/net7.0/StackApp.runtimeconfig.json
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/bin/Debug/net7.0/StackApp.dll
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/bin/Debug/net7.0/StackApp.pdb
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.csproj.AssemblyReference.cache
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.AssemblyInfoInputs.cache
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.AssemblyInfo.cs
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.csproj.CoreCompileInputs.cache
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.dll
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/refint/StackApp.dll
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.pdb
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/StackApp.genruntimeconfig.cache
+/workspaces/nyp_example_works/DuckTypingAndGenericKonsept/StackApp/obj/Debug/net7.0/ref/StackApp.dll

@@ -1,0 +1,19 @@
+@startuml is-a
+title Extension(Inheritance)/Kalıtım
+class Animal
+{
+     +name:string
+     +makeSound():string
+}
+class Dog
+{
+   +makeSound():string 
+}
+class Cat
+{
+   +makeSound():string 
+}
+Animal <|-down- Dog : <<implements>>
+Animal <|-down- Cat : <<implements>>
+hide empty members
+@enduml

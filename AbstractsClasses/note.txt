@@ -1,0 +1,13 @@
+<Abstract(Soyut) Sınıf Özellikleri>
+- Kendisinden nesne türetilmeyen sınıftır.
+- Soyut sınıflar, diğer sınıflardan kalıtım almak ve ortak özellikleri paylaşmak için kullanılır.
+- Soyut sınıflar, soyut yöntemler içerebilir.
+- Soyut yöntemler, bir gövdeye sahip olmayan yöntemlerdir.
+- Soyut yöntemler, soyut sınıftan türetilen sınıflarda tanımlanmalıdır.
+
+<Abstract(Soyut) Sınıf Avantajları>
+- Soyut sınıflar, programların daha kolay anlaşılmasını, geliştirilmesini ve test edilmesini sağlar.
+Ayrıca, soyut sınıflar, programların yeniden kullanılabilir hale gelmesini sağlar.
+- Soyut sınıflar, ortak özellikleri paylaşan sınıfları bir araya getirir.
+- Soyut sınıflar, programların daha küçük ve daha yönetilebilir birimlere bölünmesini sağlar.
+- Soyut sınıflar, programların daha kolay test edilmesini sağlar.
