@@ -1,0 +1,54 @@
+@startuml Office Supply Ordering
+title OSO Model
+class Employee
+{
+    +EmployeeId:int
+    +LoginName:string 
+    +Password:string 
+    +Department:string
+    +FirstName:string
+    +LastName:string
+    --
+    +Login()
+}
+class DepartmentManager
+{
+    +ApprovePurchase()
+}
+class Order
+{
+    +OrderNumber:Long
+    +OrderDate:Date 
+    +Status:string
+    --
+    +AddItem() 
+    +RemoveItem()
+    +SubmitOrder()
+}
+class OrderItem
+{
+    +ProductNumber:string
+    +Quantity:string
+    +UnitPrice:Decimal
+}
+class Product
+{
+    +ProductNumber:string
+    +ProductName:string
+    +Description:string
+    +UnitPrice:Decimal
+    +Category:string
+    +VendorCode:string
+}
+class ProductCatalog
+{
+    +ListCategories()
+    +ListProducts()
+}
+DepartmentManager -up-|> Employee : <<inherits>>
+Employee "1" -right- "0..n" Order : > makes an
+Order "1" -right- "1..n" OrderItem : > contains
+OrderItem "1" -down- "1..n" Product : > contains
+Product "1..n" -left- "1" ProductCatalog : < contains
+hide empty members
+@enduml

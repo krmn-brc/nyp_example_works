@@ -1,0 +1,79 @@
+@startuml Chees Set 
+title Chees Model
+class CheesSet
+{
+    +pieces:List<Piece>
+    +board:Board
+}
+abstract class Piece
+{
+    +chess_set:CheesSet
+    +color:Color
+    --
+    +move(board:Board)
+}
+class Board
+{
+    +chess_set:CheesSet
+    +positions:Position
+}
+class Position
+{
+   chess_board:Board
+}
+class Player
+{
+
+}
+' Cheess
+class Rook
+{
+    +shape
+    --
+    move(board:Board)
+}
+class Bishop
+{
+    +shape
+    --
+    +move(board:Board)
+}
+class King
+{
+    +shape
+    --
+    +move(board:Board)
+}
+class Knight
+{
+    +shape
+    --
+    +move(board:Board)
+}
+class Pawn
+{
+    +shape
+    --
+    +move(board:Board)
+}
+class Queen
+{
+    +shape
+    --
+    +move(board:Board)
+}
+
+
+Board   -up-o CheesSet : "1  " "1"
+Piece -up-o CheesSet : 32
+Position -up-o Board : "64 " "1"
+
+Rook -up-|> Piece 
+King -up-|> Piece 
+Pawn -up-|> Piece 
+Queen -down-|> Piece 
+Bishop -down-|> Piece 
+Knight -down-|> Piece 
+
+hide empty members
+@enduml

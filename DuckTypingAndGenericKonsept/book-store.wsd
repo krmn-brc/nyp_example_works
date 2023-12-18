@@ -1,0 +1,101 @@
+@startuml Book Store App
+title Book Store Model
+class Book
+{
+    -bookId:int
+    -title:string
+    -price:decimal
+    -categoryId:int
+    -bookAuthors:BookAuthor[]
+    --
+    +getBookId():int
+    +getTitle():string
+    +getPrice():decimal
+    +getCategoryId():int
+    +getBookAuthors():BookAuthor[]
+    --
+    +setBookId(value:int):void
+    +setTitle(value:string):void
+    +setPrice(value:decimal):void
+    +setCategoryId(value:int):void
+    +setBookAuthors(value:BookAuthor[]):void
+    --
+    +Book()
+    +Book(id:int, title:string, price:decimal)
+
+}
+class Category
+{
+    -categoryId:int
+    -categoryName:string
+    -books:Book[]
+    --
+    +getCategoryId():int
+    +getCategoryName():string
+    +getBooks():Book[]
+    --
+    +setCategoryId(value:int):void
+    +setCategoryName(value:string):void
+    +setBooks(value:Book[]):void
+    --
+    +Category()
+}
+class BookDetail
+{
+    -bookDetailId:int
+    -bookId:int
+    -publisher:string
+    -ISBN:string
+    --
+    +getBookDetailId():int
+    +getBookId():int
+    +getPublisher():string
+    +getISBN():string
+    --
+    +setBookDetailId(value:int):void
+    +setBookId(value:int):void
+    +setPublisher(value:string):void
+    +setISBN(value:string):void
+    --
+    +BookDetail()
+}
+class Author
+{
+    -authorId:int
+    -fullName:string
+    -bookAuthors:BookAuthor[]
+    --
+    +getAuthorId():int
+    +getFullName():string
+    +getBookAuthors():BookAuthor[]
+    --
+    +setAuthorId(value:int):void
+    +setFullName(value:string):void
+    +setBookAuthors(value:BookAuthor[]):void
+    --
+    +Author()
+
+}
+class BookAuthor
+{
+    -bookAuthorId:int
+    -bookId:int
+    -authorId:int
+    --
+    +getBookAuthorId():int
+    +getAuthorId():int
+    +getBookId():int
+    --
+    +setBookAuthorId(value:int):void
+    +setAuthorId(value:int):void
+    +setBookId(value:int):void
+    --
+    +BookAuthor()
+}
+
+
+Book "n" o-right-> "1 " Category : one to many
+Book "1" *-left-> "0..1" BookDetail : one to one
+Book "1" <-up-o "0..n" BookAuthor : one to many
+Author "1" <-left-o "0..n" BookAuthor : one to many
+@enduml
